@@ -1,0 +1,20 @@
+# Rename this file to .env once you have filled in the below environment variables!
+
+# The URL of your webhook to start the N8N workflow (get this from the first node (Webhook) of the workflow)
+#WEBHOOK_URL=https://startuptwin.app.n8n.cloud/webhook-test/asana_chatbot
+#WEBHOOK_URL=https://iltw.app.n8n.cloud/webhook-test/asana_chatbot
+#WEBHOOK_URL=https://iltw.app.n8n.cloud/webhook/asana_chatbot
+WEBHOOK_URL=https://iltw.app.n8n.cloud/webhook/asana_chatbot
+#WEBHOOK_URL=https://iltw.app.n8n.cloud/webhook-test/asana_chatbot
+#WEBHOOK_URL=https://startuptwin.app.n8n.cloud/webhook-test/841946d3-5f1a-4a9d-9a1c-4fe5d3414976
+
+# This is the Auth password for the webhook in N8N that you set up when creating the webhook
+# Also make sure the name of your Header Auth in N8N is "Authorization" or you will get a 403 error!
+WEBHOOK_AUTH=abc123token
+OPENAI_API_KEY=sk-_o3neNiIzGWa9BPUT6vkuhxLZozSBiBCa_DTjotDDhT3BlbkFJDogw-hVOCYyDoiV_6TRc_AQ-SIf6-rOT4_ctHsiBwA
+PINECONE_API_KEY=f6199930-f9c2-49bb-8149-6359691c9229
+PINECONE_ENV=Us-east-1
+PINECONE_INDEX=werewolf  # Name of the Pinecone index
+LLM_MODEL=gpt-4o-mini
+EMBEDDING_MODEL=text-embedding-ada-002
+PINECONE_INDEX=werewolf-game-data
